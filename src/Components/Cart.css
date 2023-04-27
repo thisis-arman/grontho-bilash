@@ -1,0 +1,18 @@
+.cart{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 30px;
+}
+
+.checkout-btn{
+    background-color: #F7CA00;
+    padding: 5px 30px ;
+    border-radius: 10px;
+}
+.checkout-btn:hover{
+    background-color: #caa709f5;
+
+}
+.order-preview{
+    padding: 30px;
+}

@@ -1,0 +1,17 @@
+.search-field{
+    position: absolute;
+    top: 400px;
+   right: 400px;
+   left: 500px;
+   bottom: 200px;
+
+
+}
+.search-field input {
+    background-color: rgba(245, 245, 220, 0.651);
+    padding: 10px 120px ;
+    margin: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
