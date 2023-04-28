@@ -95,14 +95,14 @@ const Home = () => {
         <div className="flex justify-center">
           {showMore ? (
             <button
-              className="btn btn-success mt-16 px-24"
+              className="btn-secondary-custom mt-16 px-24"
               onClick={() => setShowMore(false)}
             >
               View more
             </button>
           ) : (
             <button
-              className="btn btn-secondary mt-16 px-24"
+              className="btn-primary-custom mt-16 px-24"
               onClick={() => setShowMore(true)}
             >
               View less

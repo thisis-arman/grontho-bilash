@@ -15,6 +15,7 @@ import Blogs from './Components/Blogs.jsx';
 import Shop from './Components/Shop.jsx';
 import ReactBooks from './Components/ReactBooks.jsx';
 import Cart from './Components/Cart.jsx';
+import Register from './Components/Register.jsx';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
       {
         path:'/cart',
         element:<Cart/>
+      },
+      {
+        path:'/register',
+        element:<Register/>
       }
     ]
   },
